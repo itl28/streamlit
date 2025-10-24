@@ -37,4 +37,5 @@ tzdata==2025.2
 urllib3==2.5.0
 watchdog==6.0.0
 matplotlib
+scikit-learn
 
