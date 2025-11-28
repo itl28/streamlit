@@ -1,7 +1,6 @@
 import time
 import streamlit as st
 import pandas as pd
-import time as time
 from maze_solver import MAZE, START, END, solve_maze_bfs
 
 st.title("Visualizador de Algoritmo de Búsqueda en Laberinto")
@@ -55,4 +54,5 @@ if solve_button:
         else:
             st.error("No se encontró un camino.")
     else:
+
         st.warning(f"El algoritmo {algorithm} aún no está implementado. Usa BFS.")
